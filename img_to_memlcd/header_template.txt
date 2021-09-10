@@ -1,0 +1,19 @@
+/** @file ${img_name}.h
+ * 
+ * @brief byte buffer representation of ${img_name} 
+ */
+
+#ifndef ${img_name_caps}_H
+#define ${img_name_caps}_H
+
+#define ${img_name_caps}_WIDTH          ${img_width}
+#define ${img_name_caps}_HEIGHT         ${img_height}
+
+#define ${img_name_caps}_NUM_FRAMES     ${frame_count}
+#define ${img_name_caps}_FRAME_SIZE     ${buffer_size}
+
+const uint8_t ${img_name}[${img_name_caps}_NUM_FRAMES][${img_name_caps}_FRAME_SIZE] = {
+${buffers}
+};
+
+#endif /* ${img_name_caps}_H */
