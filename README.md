@@ -17,7 +17,7 @@ This repo contains various utilities which can be used with Silicon Labs product
 
 ## Examples ##
 
-- TBD
+- Bluetooth OTA using Python BLEAK Library 
 
 ## Documentation ##
 
